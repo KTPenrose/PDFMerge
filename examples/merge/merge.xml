@@ -1,0 +1,7 @@
+<pdfmerge>
+   <file path='Pages1and3.pdf' nickname='doc1'/>
+   <file path='Pages2and4.pdf' nickname='doc2'/>
+   <output path='output.pdf' allowoverwrite='true'/>
+   <page source='doc1'/>
+   <page source='doc2'/>
+</pdfmerge>

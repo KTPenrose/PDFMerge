@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfMerge", "PdfMerge\PdfMerge.csproj", "{BF4B35C8-BDB1-403B-84D0-3DD19D65DE1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4B35C8-BDB1-403B-84D0-3DD19D65DE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4B35C8-BDB1-403B-84D0-3DD19D65DE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4B35C8-BDB1-403B-84D0-3DD19D65DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4B35C8-BDB1-403B-84D0-3DD19D65DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D6308E-FCB7-49EB-89DC-57C63EA9BFFC}
+	EndGlobalSection
+EndGlobal
