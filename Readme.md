@@ -13,7 +13,7 @@ Merge
 
 Create a file 'merge.xml'
 
-&lt;pdfmerge&gt;0\
+&lt;pdfmerge&gt;\
    &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;\
    &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;\
    &lt;output path='output.pdf' allowoverwrite='true'/&gt;\
