@@ -13,12 +13,12 @@ Merge
 
 Create a file 'merge.xml'
 
-&lt;pdfmerge&gt;
-   &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;
-   &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;
-   &lt;output path='output.pdf' allowoverwrite='true'/&gt;
-   &lt;page source='doc1'/&gt;
-   &lt;page source='doc2'/&gt;
+&lt;pdfmerge&gt;0\
+   &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;\
+   &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;\
+   &lt;output path='output.pdf' allowoverwrite='true'/&gt;\
+   &lt;page source='doc1'/&gt;\
+   &lt;page source='doc2'/&gt;\
 &lt;/pdfmerge&gt;
 
 run the following at the command prompt:
@@ -33,15 +33,15 @@ Collate
 
 Create a file 'collate.xml'
 
-&lt;pdfmerge&gt;
-   &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;
-   &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;
-   &lt;output path='output.pdf' allowoverwrite='true'/&gt;
-   &lt;page source='doc1' pageno='1'/&gt;
-   &lt;page source='doc2' pageno='1'/&gt;
-   &lt;page source='doc1' pageno='2'/&gt;
-   &lt;page source='doc2' pageno='2'/&gt;
-&lt;/pdfmerge&gt;
+&lt;pdfmerge&gt;\
+   &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;\
+   &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;\
+   &lt;output path='output.pdf' allowoverwrite='true'/&gt;\
+   &lt;page source='doc1' pageno='1'/&gt;\
+   &lt;page source='doc2' pageno='1'/&gt;\
+   &lt;page source='doc1' pageno='2'/&gt;\
+   &lt;page source='doc2' pageno='2'/&gt;\
+&lt;/pdfmerge&gt;\
 
 run the following at the command prompt:
 
