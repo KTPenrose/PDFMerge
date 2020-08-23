@@ -13,7 +13,7 @@ Merge
 
 Create a file 'merge.xml'
 
-<pdfmerge>
+&lt;pdfmerge&gt;
    <file path='Pages1and3.pdf' nickname='doc1'/>
    <file path='Pages2and4.pdf' nickname='doc2'/>
    <output path='output.pdf' allowoverwrite='true'/>
@@ -45,7 +45,7 @@ Create a file 'collate.xml'
 
 run the following at the command prompt:
 
-pdfmerge.exe -f merge.xml
+pdfmerge.exe -f collate.xml
 
 Note: the output will collate the two documents, placing the pages in the following order: doc1 page 1, doc2 page 1, doc1 page 2, doc2 page 2.
 
