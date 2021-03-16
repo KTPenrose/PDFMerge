@@ -1,2 +1,3 @@
-/PdfMerge/bin
-/PdfMerge/obj
+PdfMerge/bin
+PdfMerge/obj
+.vs/**
