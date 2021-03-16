@@ -13,13 +13,13 @@ Merge
 
 Create a file 'merge.xml'
 
-<pdfmerge>
-   <file path='Pages1and3.pdf' nickname='doc1'/>
-   <file path='Pages2and4.pdf' nickname='doc2'/>
-   <output path='output.pdf' allowoverwrite='true'/>
-   <page source='doc1'/>
-   <page source='doc2'/>
-</pdfmerge>
+&lt;pdfmerge&gt;\
+   &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;\
+   &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;\
+   &lt;output path='output.pdf' allowoverwrite='true'/&gt;\
+   &lt;page source='doc1'/&gt;\
+   &lt;page source='doc2'/&gt;\
+&lt;/pdfmerge&gt;
 
 run the following at the command prompt:
 
@@ -33,19 +33,19 @@ Collate
 
 Create a file 'collate.xml'
 
-<pdfmerge>
-   <file path='Pages1and3.pdf' nickname='doc1'/>
-   <file path='Pages2and4.pdf' nickname='doc2'/>
-   <output path='output.pdf' allowoverwrite='true'/>
-   <page source='doc1' pageno='1'/>
-   <page source='doc2' pageno='1'/>
-   <page source='doc1' pageno='2'/>
-   <page source='doc2' pageno='2'/>
-</pdfmerge>
+&lt;pdfmerge&gt;\
+   &lt;file path='Pages1and3.pdf' nickname='doc1'/&gt;\
+   &lt;file path='Pages2and4.pdf' nickname='doc2'/&gt;\
+   &lt;output path='output.pdf' allowoverwrite='true'/&gt;\
+   &lt;page source='doc1' pageno='1'/&gt;\
+   &lt;page source='doc2' pageno='1'/&gt;\
+   &lt;page source='doc1' pageno='2'/&gt;\
+   &lt;page source='doc2' pageno='2'/&gt;\
+&lt;/pdfmerge&gt;\
 
 run the following at the command prompt:
 
-pdfmerge.exe -f merge.xml
+pdfmerge.exe -f collate.xml
 
 Note: the output will collate the two documents, placing the pages in the following order: doc1 page 1, doc2 page 1, doc1 page 2, doc2 page 2.
 
